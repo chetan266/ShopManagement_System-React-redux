@@ -1,0 +1,53 @@
+.list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(18, 46, 15);
+  width: 50%;
+  height: 70%;
+  padding: 4% 4%;
+  border-radius: 30px;
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 480px) {
+  .list {
+    width: 70%;
+  }
+}
+.parent {
+  position: relative;
+  height: 90vh;
+}
+.list li {
+  background-color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 1% 5%;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgb(171, 147, 127);
+}
+.list li i {
+  font-size: 120%;
+  cursor: pointer;
+}
+.add_button {
+  position: absolute;
+  left: 85%;
+  top: 85%;
+  color: rgb(1, 5, 1);
+  font-size: 280%;
+  text-shadow: 0 0 3px #b3a2a2;
+  cursor: pointer;
+}
+
+.filter_button {
+  position: absolute;
+  left: 85%;
+  top: 75%;
+  color: rgb(43, 96, 80);
+  font-size: 280%;
+  text-shadow: 0 0 3px #b3a2a2;
+  cursor: pointer;
+}
